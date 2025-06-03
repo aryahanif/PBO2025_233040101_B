@@ -1,0 +1,29 @@
+Soal Tugas 5: Aplikasi Manajemen Data Mahasiswa
+
+Studi Kasus:
+
+Dalam aplikasi manajemen data mahasiswa, setiap mahasiswa memiliki Nomor Induk Mahasiswa (NIM) yang unik dan tidak berubah. Selain itu, terdapat aturan umum seperti maksimum SKS yang harus disetting secara global.
+
+Tugas:
+
+1. Buatlah kelas Mahasiswa yang memiliki:
+
+- Variabel final nim (String) yang diinisialisasi melalui constructor.
+
+- Variabel nama (String).
+
+- Variabel static totalMahasiswa (int) yang menghitung jumlah objek Mahasiswa yang dibuat.
+
+- Constanta static final MAX_SKS (int) yang menyatakan batas maksimum SKS, misalnya 24.
+
+- Constructor yang mengupdate totalMahasiswa setiap kali objek baru dibuat.
+
+- Method displayInfo() untuk menampilkan NIM, nama, dan informasi lain yang relevan.
+
+2. Buatlah kelas TestMahasiswa dengan method main:
+
+- Buat beberapa objek Mahasiswa.
+
+- Tampilkan informasi masing-masing mahasiswa.
+
+- Tampilkan total pendaftar mahasiswa dengan memanggil method static (misal, getTotalMahasiswa() jika dibuat).

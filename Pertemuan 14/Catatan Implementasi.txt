@@ -1,0 +1,33 @@
+Catatan Implementasi
+Final Variable:
+
+Nilai di-set sekali (via constructor/declaration) dan tidak bisa diubah.
+
+Contoh: accountNumber di BankAccount, nim di Mahasiswa.
+
+Static Variable:
+
+Nilai dibagi oleh semua instance kelas.
+
+Contoh: totalMahasiswa (counter objek), MAX_SKS (konstanta global).
+
+Final Method:
+
+Dicegah override di subclass (keamanan fungsionalitas).
+
+Contoh: displayAccountInfo() di BankAccount.
+
+Static Block:
+
+Inisialisasi kompleks saat kelas pertama kali diload.
+
+Contoh: Konfigurasi koneksi database di DatabaseConnection.
+
+Hasil Eksperimen yang Direkomendasikan
+Coba hapus final dari method displayAccountInfo() lalu override di subclass.
+
+Uji ubah nilai static variable dari instance berbeda (misal: Mahasiswa.totalMahasiswa = 10).
+
+Hapus static dari MAX_SKS dan amati error saat diakses via nama kelas.
+
+Tambahkan modifier private pada variabel static dan uji aksesnya.

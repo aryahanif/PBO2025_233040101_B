@@ -1,0 +1,19 @@
+Soal Tugas 1: Konstanta Global dengan static final
+
+Studi Kasus:
+
+Dalam sebuah aplikasi, terdapat banyak informasi konfigurasi yang nilainya tidak akan berubah selama runtime. Misalnya, URL base, versi aplikasi, dan timeout koneksi.
+
+Tugas:
+
+1. Buatlah kelas AppConfig yang menyimpan variabel-variabel berikut sebagai konstanta:
+
+- BASE_URL (String) → misal, `"https://www.myapp.com/api"`
+
+- APP_VERSION (String) → misal, "1.0.0"
+
+- DEFAULT_TIMEOUT (int) → misal, 5000 (dalam milidetik)
+
+2. Pastikan variabel-variabel tersebut dideklarasikan dengan modifier static final.
+
+3. Buatlah kelas TestAppConfig dengan method main yang mencetak nilai-nilai konstanta tersebut ke layar.

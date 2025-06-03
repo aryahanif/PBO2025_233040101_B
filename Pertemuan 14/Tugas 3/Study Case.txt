@@ -1,0 +1,21 @@
+Soal Tugas 3: Penghitung Instansiasi dengan Variabel static
+
+Studi Kasus:
+
+Sebuah aplikasi mungkin memerlukan pelacakan jumlah objek yang telah dibuat dari suatu kelas. Contohnya, layanan pencatatan objek untuk monitoring atau debugging.
+
+Tugas:
+
+1. Buatlah kelas Counter dengan:
+
+- Variabel static instanceCount (int) yang meningkat setiap kali konstruktor dipanggil.
+
+- Konstruktor yang menambah nilai instanceCount.
+
+- Method static getInstanceCount() yang mengembalikan jumlah instance yang telah dibuat.
+
+2. Buat kelas TestCounter dengan method main:
+
+- Buat beberapa objek Counter.
+
+- Panggil method getInstanceCount() untuk menampilkan total objek yang telah dibuat.

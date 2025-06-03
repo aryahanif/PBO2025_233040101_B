@@ -1,0 +1,15 @@
+Soal Tugas 4: Inisialisasi dengan Static Block
+
+Studi Kasus:
+
+Dalam aplikasi yang berhubungan dengan database, pengaturan koneksi sering memerlukan inisialisasi yang kompleks sebelum digunakan. Static block dapat dijalankan satu kali ketika kelas pertama kali diload.
+
+Tugas:
+
+1. Buatlah kelas DatabaseConnection yang memiliki:
+
+- Variabel static connectionString (String) untuk menyimpan URL koneksi ke database.
+
+2. Gunakan static block untuk menginisialisasi connectionString dan tampilkan pesan bahwa inisialisasi telah terjadi.
+
+3. Buat kelas TestDatabaseConnection dengan method main yang mencetak nilai connectionString.
